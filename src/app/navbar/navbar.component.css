@@ -1,0 +1,21 @@
+.logo{
+    font-family: 'Sriracha', cursive;
+    font-size: 40px;
+}
+
+#navbar{
+    background-color: #EB9717;
+    color: white;
+}
+
+.navmenu{
+    position: relative;
+    left: 70%;
+}
+
+.navmenu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    color: white;
+}

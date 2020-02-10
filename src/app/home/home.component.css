@@ -1,0 +1,13 @@
+#home{
+    background-image: url(../../assets/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+}
+
+.titulo{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    text-align: center;
+}

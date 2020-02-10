@@ -1,0 +1,23 @@
+
+.titulo{
+    font-size: 2em;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+#titlepost{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 500px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 20px;
+}
+
+#conteudo{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 500px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 20px;
+}
