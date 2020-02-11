@@ -1,32 +1,28 @@
-<div class="example-container">
-    <div class="titulo"> Crie sua postagem aqui. </div>
-        <br>
-        <form class="example-form">
-            <input matInput 
-            type="text" 
-            name="titulo" 
-            id="titlepost" 
-            placeholder="Título de sua postagem" 
-            required>
-            <br>
-            <br>
-            <input 
-            type="file" 
-            name="fotos" 
-            id="foto" 
-            placeholder="Selecione uma foto">
-            <br>
-            <br>
-            <textarea 
-            name="conteudo" 
-            id="conteudo" 
-            cols="30" 
-            rows="10" 
-            placeholder="Digite sua postagem aqui" 
-            required></textarea>  
-            <br>  
-            <br>
-            <button mat-button type="submit">Enviar</button> | 
-            <button mat-button type="reset">Limpar</button>
-        </form>
+<div class="container">
+
+        <div class="editor">
+            <div id="titulobanner">
+                Escreva sua postagem
+            </div>
+            <div class="form">
+                <form>
+                    <input type="text" name="titulo" id="titulo" placeholder="Título da Postagem">
+                        <br>
+                            <textarea name="texto" 
+                            id="texto" cols="30" rows="10" 
+                            placeholder="Conteúdo da Postagem"></textarea>
+                        <br>
+                        <div class="btn">
+                            <button mat-button 
+                        type="submit" 
+                        class="post-btn">
+                        Postar</button> | 
+                        <button mat-button 
+                        type="reset" 
+                        class="res-btn">
+                        Limpar</button>
+                        </div>
+                </form>
+            </div>
+        </div>
 </div>

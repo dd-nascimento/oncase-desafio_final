@@ -5,6 +5,8 @@ import { PostagensComponent } from './postagens/postagens.component';
 import { AlbunsComponent } from './albuns/albuns.component';
 
 import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+
 
 
 
@@ -15,7 +17,8 @@ import {MatCardModule} from '@angular/material/card';
     AlbunsComponent],
   imports: [
     CommonModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   exports: [
     EscreverComponent,

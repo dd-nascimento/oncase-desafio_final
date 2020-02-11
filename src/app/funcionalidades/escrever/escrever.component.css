@@ -1,26 +1,45 @@
-.example-container{
-    margin-right: 150px;
+*{
+    padding: 0;
+    margin: 0;
 }
 
-.titulo{
-    font-size: 2em;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
+.container{
+    background-color: teal;
+    width: 1000px;
+    margin-left: 180px;
 }
 
-#titlepost{
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 2px solid grey;
-    width: 500px;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
+#titulobanner{
+    margin-left: 35px;
+    margin-bottom: 10px;
     font-size: 20px;
 }
+.form{
+    margin-left: 35px;
+}
 
-#conteudo{
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 2px solid grey;
-    width: 500px;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
-    font-size: 20px;
+.form input{
+    margin-bottom: 10px;
+}
+
+.form input, textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    width: 900px;
+    border:none;
+    border-bottom: 1px solid grey;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.post-btn{
+    background-color: rgb(58, 58, 211);
+    color: white;
+}
+
+.res-btn{
+    background-color: tomato;
+    color: white;
 }
