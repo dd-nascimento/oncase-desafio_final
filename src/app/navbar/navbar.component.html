@@ -1,9 +1,16 @@
-<mat-toolbar id="navbar">
-    <div class="logo"> Olímpo</div>
-        <div class="navmenu">
-            <button mat-button id="btn-nav"><a routerLink="home">Início </a></button>
-                <button mat-button id="btn-nav"><a routerLink="editor">Escrever</a></button>
-                    <button mat-button id="btn-nav"><a routerLink="albuns">Albuns</a></button>
-                        <button mat-button id="btn-nav"><a routerLink="">Sair</a></button>
-        </div>
-</mat-toolbar>
+<nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="material-icons">
+            dehaze
+            </i>
+    </label>
+    <label class="logo">Olímpo</label>
+    <ul>
+        <li><a routerLink="home">Início</a></li>
+        <li><a routerLink="editor">Criar Post</a></li>
+        <li><a routerLink="">Criar Tarefas</a></li>
+        <li><a routerLink="Postagens">Resultados</a></li>
+        <li><a routerLink="">Sair</a></li>
+    </ul>
+</nav>
