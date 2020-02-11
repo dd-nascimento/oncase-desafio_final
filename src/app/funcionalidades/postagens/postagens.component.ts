@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 export interface Postagens {
-      Titulo: string;
-      Datapostagem: string;
-      NComentarios: string;
-      NVisualizacoes: string;
+      titulo: string;
+      datapostagem: string;
+      nComentarios: string;
+      nVisualizacoes: string;
 }
 
 const ELEMENT_DATA: Postagens [] = [
-  { Titulo: 'Super Lua de Fevereiro', Datapostagem: '10/02/2020', NComentarios: '10', NVisualizacoes: '20'},
-  { Titulo: 'Vivendo da Lua', Datapostagem: '10/01/2020', NComentarios: '223', NVisualizacoes: '300'}
+  { titulo: 'Super Lua de Fevereiro', datapostagem: '10/02/2020', nComentarios: '10', nVisualizacoes: '20'},
+  { titulo: 'Vivendo da Lua', datapostagem: '10/01/2020', nComentarios: '223', nVisualizacoes: '300'}
 ];
 
 @Component({
@@ -19,6 +19,6 @@ const ELEMENT_DATA: Postagens [] = [
 })
 
 export class PostagensComponent {
-  displayedColumns: string [] = ['Titulo', 'Datapostagem', 'NComentarios', 'NVisualizacoes'];
+  displayedColumns: string [] = ['titulo', 'datapostagem', 'nComentarios', 'nVisualizacoes'];
   dataSource = ELEMENT_DATA;
 }

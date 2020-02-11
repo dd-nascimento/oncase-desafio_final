@@ -11,3 +11,38 @@
     left: 35%;
     text-align: center;
 }
+
+.cardmenu{
+    width: 70%;
+    margin-left: 15%;
+    background-color: teal;
+}
+
+#card1{
+    width: 120px;
+    background-color: violet;
+    
+}
+
+#carda img{
+    align-content: center;
+}
+
+#card1 a{
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.card2{
+    width: 80px;
+    
+    
+}
+
+.card3{
+    width: 80px;
+    font-size: 12px;
+    text-align: center;
+}
