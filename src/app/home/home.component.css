@@ -1,48 +1,12 @@
-#home{
-    background-image: url(../../assets/fundo.jpg);
+.home{
+    background-image: url("../../assets/fundo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80%;
-}
-
-.titulo{
-    position: absolute;
-    top: 40%;
-    left: 35%;
-    text-align: center;
-}
-
-.cardmenu{
-    width: 70%;
-    margin-left: 15%;
-    background-color: teal;
+    background-size: 100%;
+    width: 80%;
 }
 
 #card1{
-    width: 120px;
-    background-color: violet;
-    
-}
-
-#carda img{
-    align-content: center;
-}
-
-#card1 a{
-    text-align: center;
-    font-size: 12px;
-    text-decoration: none;
-    color: white;
-}
-
-.card2{
-    width: 80px;
-    
-    
-}
-
-.card3{
-    width: 80px;
-    font-size: 12px;
+    width: 90px;
     text-align: center;
 }
