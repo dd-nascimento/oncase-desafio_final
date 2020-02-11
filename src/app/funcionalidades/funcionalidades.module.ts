@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EscreverComponent } from './escrever/escrever.component';
-import { PostagensComponent } from './postagens/postagens.component';
 import { AlbunsComponent } from './albuns/albuns.component';
 
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
+import { PostagensComponent } from './postagens/postagens.component';
+import { TarefasComponent } from './tarefas/tarefas.component';
 
 
 
@@ -13,8 +14,9 @@ import {MatButtonModule} from '@angular/material/button';
 @NgModule({
   declarations: [
     EscreverComponent,
+    AlbunsComponent,
     PostagensComponent,
-    AlbunsComponent],
+    TarefasComponent],
   imports: [
     CommonModule,
     MatCardModule,
@@ -22,7 +24,9 @@ import {MatButtonModule} from '@angular/material/button';
   ],
   exports: [
     EscreverComponent,
-    PostagensComponent
+    PostagensComponent,
+    AlbunsComponent,
+    TarefasComponent
   ]
 })
 export class FuncionalidadesModule { }

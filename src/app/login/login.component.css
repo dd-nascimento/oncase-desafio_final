@@ -1,0 +1,13 @@
+
+/*Botões do form Login*/
+
+#btn-login{
+    background-color: green;
+    color: white;
+}
+
+#btn-limpar{
+    background-color: rgb(226, 204, 6);
+    color: white;
+    margin-left: 5px;
+}

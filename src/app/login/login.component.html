@@ -1,0 +1,21 @@
+<div class="login">
+    <div id="titulo">
+        <h1>LOGIN</h1>
+    </div>
+        <div class="form">
+            <label for="usuario">Usuário: </label>
+            <input type="text" name="usuario" id="usuario">
+        </div>
+        <div class="form">
+            <label for="usuario">Senha: </label>
+            <input type="password" name="senha" id="senha">
+        </div>
+        <button 
+        id="btn-login" 
+        type="submit" 
+        mat-button (click)="fazerLogin()">ENTRAR</button>
+        <button 
+        id="btn-limpar" 
+        type="reset" 
+        mat-button>LIMPAR</button>
+</div>
