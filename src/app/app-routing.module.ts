@@ -5,6 +5,7 @@ import { EscreverComponent } from './funcionalidades/escrever/escrever.component
 import { AlbunsComponent } from './funcionalidades/albuns/albuns.component';
 import { PostagensComponent } from './funcionalidades/postagens/postagens.component';
 import { TarefasComponent } from './funcionalidades/tarefas/tarefas.component';
+import { LoginComponent } from './login/login.component';
 
 
 const routes: Routes = [
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'albuns', component: AlbunsComponent},
   { path: 'postagens', component: PostagensComponent},
   { path: 'albuns', component: AlbunsComponent},
-  { path: 'to-dos', component: TarefasComponent}
+  { path: 'to-dos', component: TarefasComponent},
+  { path: 'logout', component: LoginComponent}
 ];
 
 

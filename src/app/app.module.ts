@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FuncionalidadesModule } from './funcionalidades/funcionalidades.module';
 import { HomeComponent } from './home/home.component';
-
+import { AuthService } from './login/auth.service';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule, matMenuAnimations} from '@angular/material/menu';
@@ -16,13 +16,16 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatTableModule} from '@angular/material/table';
 import {MatCardModule} from '@angular/material/card';
+import { LoginComponent } from './login/login.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,9 @@ import {MatCardModule} from '@angular/material/card';
     MatTableModule,
     MatCardModule
   ],
-  providers: [],
+  providers: [
+    AuthService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
