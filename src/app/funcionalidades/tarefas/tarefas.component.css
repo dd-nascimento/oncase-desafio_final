@@ -1,0 +1,39 @@
+
+.cargaconteudo{
+    background-color: #EB9717;
+    color: white;
+    width: 1000px;
+    margin-top: 10px;
+    margin-left: 180px;
+}
+
+#titulo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.form{
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tarefa input{
+    width: 300px;
+}
+
+
+.btn{
+    margin-top: 15px;
+}
+
+.post-btn{
+    background-color: rgb(58, 58, 211);
+    color: white;
+}
+
+.res-btn{
+    background-color: tomato;
+    color: white;
+}
