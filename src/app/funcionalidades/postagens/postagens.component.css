@@ -4,11 +4,9 @@
 }
 
 .cargaconteudo{
-    background-color: thistle;
+    background-color: #EB9717;
+    color: white;
     width: 1000px;
+    margin-top: 10px;
     margin-left: 180px;
-}
-
-#table{
-   border: 2px solid black;
 }

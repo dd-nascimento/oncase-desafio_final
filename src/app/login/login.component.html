@@ -1,21 +1,28 @@
 <div class="login">
     <div id="titulo">
+        <img 
+        src="../../assets/user.png"
+        width="100px">
         <h1>LOGIN</h1>
     </div>
+    <form action="">
         <div class="form">
             <label for="usuario">Usuário: </label>
-            <input type="text" name="usuario" id="usuario">
+            <input type="text" name="usuario" id="usuario" placeholder="Usuário" required>
         </div>
         <div class="form">
-            <label for="usuario">Senha: </label>
-            <input type="password" name="senha" id="senha">
+            <label for="senha">Senha: </label>
+            <input type="password" name="senha" id="senha" placeholder="Senha" required>
         </div>
-        <button 
-        id="btn-login" 
-        type="submit" 
-        mat-button (click)="fazerLogin()">ENTRAR</button>
-        <button 
-        id="btn-limpar" 
-        type="reset" 
-        mat-button>LIMPAR</button>
+        <div class="btn">
+            <button 
+            id="btn-login" 
+            type="submit" 
+            mat-button (click)="fazerLogin()">ENTRAR</button>
+            <button 
+            id="btn-limpar" 
+            type="reset" 
+            mat-button>LIMPAR</button>
+        </div>
+    </form>
 </div>
