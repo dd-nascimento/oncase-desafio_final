@@ -1,6 +1,6 @@
 # Olimpo
 
-Projeto Olimpo foi desenvolvido com o framework Angular version 8.3.24. Além do JSON como fonte de dados. 
+Projeto Olimpo foi desenvolvido com o framework Angular version 8.3.24. Foi utilizado o Material Design como fonte de material gráfico. 
 
 # Do Projeto
 
